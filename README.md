@@ -1,5 +1,4 @@
 # Better-Basic-Omarchy
-# Better-Basic-Omarchy
 
 One-shot setup for a fresh Omarchy install:
 - Installs essentials (yay, nano, kate, usbutils, rclone, etc.)
@@ -14,7 +13,11 @@ One-shot setup for a fresh Omarchy install:
 
 ## Install
 ```bash
-git clone https://github.com/<YOUR-USER>/Better-Basic-Omarchy.git
+git clone https://github.com/Mshaw1999/Better-Basic-Omarchy.git
 cd Better-Basic-Omarchy
 chmod +x install.sh
 ./install.sh
+
+## Optional Unistall/Reset
+chmod +x uninstall-reset.sh
+./uninstall-reset.sh
