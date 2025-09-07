@@ -21,3 +21,8 @@ chmod +x install.sh
 ## Optional Unistall/Reset
 chmod +x uninstall-reset.sh
 ./uninstall-reset.sh
+
+All Steps are logged to: 
+
+~/.local/share/better-basic-omarchy/logs/setup-YYYYmmdd-HHMMSS.log
+
