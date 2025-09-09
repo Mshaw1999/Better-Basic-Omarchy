@@ -14,6 +14,10 @@ log_start "Better-Basic-Omarchy setup started"
 run_step "Install packages"               "${SCRIPTS_DIR}/install-packages.sh"
 run_step "Install Osaka Jade theme"       "${SCRIPTS_DIR}/install-theme.sh"
 run_step "Configure keybinds"             "${SCRIPTS_DIR}/configure-keybinds.sh"
+
+# NEW: KVM/QEMU + virt-manager + NAT + SUPER+V keybind
+run_step "Setup virt-manager & NAT"       "${SCRIPTS_DIR}/setup-virt-manager.sh"
+
 run_step "Setup rclone mounts & helpers"  "${SCRIPTS_DIR}/setup-rclone.sh"
 
 log_success "Setup complete 🎉"
